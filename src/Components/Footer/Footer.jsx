@@ -1,8 +1,6 @@
 import Styles from "./Footer.module.css";
 import { Link } from 'react-router-dom';
 
-import Card from 'react-bootstrap/Card';
-
 const Footer = () => {
   return (
     <div>
