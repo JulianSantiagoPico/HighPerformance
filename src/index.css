@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: linear-gradient(250deg, #ffffff, #a6a6a6, #646161, #fd3131, #af1616);
+  background-image: linear-gradient(250deg, #ffffff, #ffffff, #a6a6a6, #646161, #fd3131, #af1616, #af1616);
   background-size: 1000%;
   animation: animBack 10s infinite;
 }

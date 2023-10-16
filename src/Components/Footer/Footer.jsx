@@ -1,6 +1,8 @@
 import Styles from "./Footer.module.css";
 import { Link } from 'react-router-dom';
 
+import Card from 'react-bootstrap/Card';
+
 const Footer = () => {
   return (
     <div>
@@ -32,8 +34,8 @@ const Footer = () => {
               <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> CONTACT </Link>
           </div>
 
-          <div className={Styles.footerBottom}>
-            <p>copyright 2023 <a href=""> sample </a></p>
+          <div className={Styles.footerBottom} style={{paddingTop:"0.25rem"}}>
+            <p>CopyRight 2023</p>
           </div>
         </div>
       </footer>

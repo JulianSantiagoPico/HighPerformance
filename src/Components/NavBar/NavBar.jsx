@@ -14,17 +14,21 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" style={{fontSize:"1.15rem", display:"flex", gap:"50px"}}>
-              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}> HOME </Link>
-              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}> ABOUT US </Link>
-              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}> SERVICES </Link>
-              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}> INSURANCE </Link>
-              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}> CONTACT </Link>
+
+              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> HOME </Link>
+              <Link to="/about" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> ABOUT </Link>
+              <Link to="/services" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> SERVICES </Link>
+              <Link to="/insurance" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> INSURANCE </Link>
+              <Link to="/contact" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> CONTACT </Link>
+
             </Nav>
           </Navbar.Collapse>
           <Navbar.Brand style={{paddingLeft:"2.5rem", display:"flex", gap:"20px"}}>
-            <a href="https://www.instagram.com" target='_blank' style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}><BsInstagram /></a>
-            <a href="https://www.facebook.com" target='_blank' style={{textDecoration:"none", color:"black", paddingTop:"0.5rem"}}><BsFacebook /></a>
+
+            <a href="https://www.instagram.com" target='_blank' rel='noreferrer' style={{textDecoration:"none", color:"black"}}><BsInstagram /></a>
+            <a href="https://www.facebook.com" target='_blank' rel='noreferrer' style={{textDecoration:"none", color:"black"}}><BsFacebook /></a>
           </Navbar.Brand>
+
         </Container>
       </Navbar>
     </div>

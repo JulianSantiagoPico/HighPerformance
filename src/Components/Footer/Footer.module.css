@@ -84,10 +84,6 @@ footer{
     color: #cfd2d6;
     text-decoration: none;
 }
-  
-.footerMenu ul li a:hover{
-    color: #27bcda;
-}
 
 @media (max-width:500px) {
 .footerMenu ul{
