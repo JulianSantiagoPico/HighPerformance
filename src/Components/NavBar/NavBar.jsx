@@ -10,7 +10,7 @@ const NavBar = () => {
     <div>
       <Navbar expand="lg" bg='white'>
         <Container>
-          <Navbar.Brand href="#home"><img src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1697254856/HighPerformance/s8oasljxb7zori2vxkqc.png" alt="Logo" style={{width:"50%", height:"10%"}}/></Navbar.Brand>
+          <Navbar.Brand href="/"><img src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1697254856/HighPerformance/s8oasljxb7zori2vxkqc.png" alt="Logo" style={{width:"50%", height:"10%"}}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" style={{fontSize:"1.15rem", display:"flex", gap:"50px"}}>
@@ -23,7 +23,7 @@ const NavBar = () => {
 
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Brand style={{paddingLeft:"2.5rem", display:"flex", gap:"20px"}}>
+          <Navbar.Brand style={{paddingLeft:"5rem", display:"flex", gap:"20px"}}>
 
             <a href="https://www.instagram.com" target='_blank' rel='noreferrer' style={{textDecoration:"none", color:"black"}}><BsInstagram /></a>
             <a href="https://www.facebook.com" target='_blank' rel='noreferrer' style={{textDecoration:"none", color:"black"}}><BsFacebook /></a>
