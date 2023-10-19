@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 const ContactForm = () => {
   return (
     <div>
-        <h1 className='mb-3' style={{fontSize:"3rem", textAlign:"center"}}>Have questions or ready to schedule repairs? <br/> Contact us now!</h1>
+        <h1 className='mb-3' style={{fontSize:"2rem", textAlign:"center"}}>Have questions or ready to schedule repairs? <br/> Contact us now!</h1>
         <div>
         <Form>
 
@@ -13,8 +13,8 @@ const ContactForm = () => {
                 <Form.Control type="email" placeholder="Email Adress" />
             </FloatingLabel>
 
-            <FloatingLabel controlId="floatingInput" label="Password" className='mb-3'>
-                <Form.Control type="password" placeholder="Password" />
+            <FloatingLabel controlId="floatingInput" label="Subject" className='mb-3'>
+                <Form.Control type="text" placeholder="Subject" />
             </FloatingLabel>
 
             <Button type="submit">Submit</Button>

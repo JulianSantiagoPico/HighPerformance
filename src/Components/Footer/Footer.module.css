@@ -56,6 +56,12 @@ a {
   }
   
   /* Responsive adjustments */
+  @media screen and (min-width: 1800px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }}
+
   @media screen and (max-width: 768px) {
     footer .top {
       flex-direction: column;
