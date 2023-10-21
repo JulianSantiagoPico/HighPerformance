@@ -16,6 +16,7 @@ a {
     background: #000000;
     width: 100vw;
     color: #ffffff;
+    margin-top: 1rem;
   }
   
   /* Bottom - copyright and legal stuff */
@@ -56,7 +57,7 @@ a {
   }
   
   /* Responsive adjustments */
-  @media screen and (min-width: 1800px) {
+  @media screen and (min-width: 2000px) {
     footer {
         position: absolute;
         bottom: 0;

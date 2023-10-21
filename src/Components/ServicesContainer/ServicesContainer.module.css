@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    view-timeline-name: --container;
+    view-timeline-axis: block;
+
+    animation-timeline: --container;
+    animation-name: show;
+
+    animation-range: entry 25% cover 20%;
+    animation-fill-mode: both;
+}
+
+.image{
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+    .wrapper  {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .image{
+        width: 80vw;
+        height: 30vh;
+    }
+  }
+
+@media screen and (max-width: 750px) {
+
+    .image{
+        width: 80vw;
+        height: 30vh;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .image{
+        width: 80vw;
+        height: 25vh;
+    }
+
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
