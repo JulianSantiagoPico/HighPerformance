@@ -17,7 +17,7 @@ const InsuranceContainer = () => {
                     Going through insurance?
                   </h1>
                   <h4>
-                    We work with a variety of insurances that cover anything you need related to calibrations!
+                    We work with a variety of insurances that cover most of youe needs related to ADAS calibrations!
                   </h4>
                   <Button variant="danger" href='/contact' size="lg" style={{marginTop:"1rem"}}>Contact us!</Button>
                 </div>
