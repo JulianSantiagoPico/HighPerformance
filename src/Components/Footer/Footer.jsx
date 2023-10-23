@@ -37,7 +37,7 @@ const Footer = () => {
                 <BsClock />
               </div>
               <div>
-                <p style={{fontSize:"1.2rem"}}>OPEN HOURS <br /> Mon - Fri: 8am - 6pm | Sat: 8am-12pm <br /> Closed Sundays</p>
+                <p style={{fontSize:"1.2rem"}}>OPEN HOURS <br /> Mon - Fri: 8am - 5pm | Sat - Sun: Closed</p>
               </div>
             </div>
         </div>
@@ -45,30 +45,26 @@ const Footer = () => {
         <div className={Styles.top}>
           <div className={Styles.pages}>
             <div style={{display:"flex", flexDirection:"column"}}>
-            <h3>Navigation</h3>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> HOME </Link>
-            <Link to="/about" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> ABOUT US </Link>
-            <Link to="/services" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> SERVICES </Link>
-            <Link to="/insurance" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> INSURANCE </Link>
-            <Link to="/contact" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> CONTACT </Link>
+              <h3>Navigation</h3>
+              <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Home </Link>
+              <Link to="/about" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> About us </Link>
+              <Link to="/services" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Services </Link>
+              <Link to="/insurance" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Insurance </Link>
+              <Link to="/contact" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Contact </Link>
             </div>
 
             <div style={{display:"flex", flexDirection:"column"}}>
-            <h3>Brand Name</h3>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> HOME </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> ABOUT US </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> SERVICES </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> INSURANCE </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> CONTACT </Link>
+              <h3 style={{marginBottom:"1rem"}}>Our services!</h3>
+              <p>Blind Spot Monitor</p>
+              <p>Automatic Emergency Braking</p>
+              <p>Adaptive Cruise Control</p>
+              <p>Traffic Sign Recognition</p>
+              <p>And a lot more we offer!</p>
             </div>
 
             <div style={{display:"flex", flexDirection:"column"}}>
-            <h3>Brand Name</h3>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> HOME </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> ABOUT US </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> SERVICES </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> INSURANCE </Link>
-            <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> CONTACT </Link>
+              <h3 style={{marginBottom:"1rem"}}>Visit us</h3>
+                <p>9832 Rush St <br/> South El Monte, CA 91733</p>
             </div>
           </div>
         </div>

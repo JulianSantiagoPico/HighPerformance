@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
 import Styles from "./ServicesContainer.module.css";
 
 const ServicesContainer = () => {
@@ -14,13 +15,13 @@ const ServicesContainer = () => {
                 <div >
                   <div className={Styles.wrapper}>
                     <div>
-                      <img className={Styles.image} src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1697849468/HighPerformance/what-is-adas-calibration-scaled-pe6v30pqmk4d3fvgpjqntnek3vkap5qz4x1vxuc6fc_1_hcszlp.jpg" alt="mediaPicture1" loading='lazy'/>
+                      <Image className={Styles.image} src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1698021363/HighPerformance/adas-statistics-scaled_1_cfkt9y.jpg" rounded />
                     </div>
 
                     <div>
                       <div>
                         <h1>
-                          ADAS (Advanced Driver-Assistance System) Calibration
+                          ADAS Calibration
                         </h1>
                       </div>
 
@@ -70,6 +71,16 @@ const ServicesContainer = () => {
                         <li>  
                           <b>Adaptive Cruise Control:</b> Cruise control setting that will slow down and pace a vehicle with the one in front of it.
                         </li>
+                      </ul>
+
+                      <Image className={Styles.image} src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1697852275/HighPerformance/adas-title-jpeg_1_nvtusx.png" rounded />
+                    </div>
+                    
+                    <div style={{fontSize:"1.25rem", marginTop:"1rem"}} className={Styles.wrapper}>
+                      
+                      <Image className={Styles.image} src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1698020121/HighPerformance/ADAS_1_tmnly6.png" rounded />
+
+                      <ul style={{display:"flex", flexDirection:"column", gap:"0.5rem"}}>
 
                         <li>  
                           <b>Traffic Sign Recognition:</b> Video cameras detect some types of road signs and diaplay them on the dashboard.
@@ -84,7 +95,6 @@ const ServicesContainer = () => {
                         </li>
                       </ul>
 
-                      <img className={Styles.image} src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1697852275/HighPerformance/adas-title-jpeg_1_nvtusx.png" alt="mediaPicture2" loading='lazy'/>
                     </div>
 
                   </div>
