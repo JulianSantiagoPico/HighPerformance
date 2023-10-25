@@ -7,6 +7,8 @@ import InsuranceContainer from './Components/InsuranceContainer/InsuranceContain
 import AboutContainer from './Components/AboutContainer/AboutContainer';
 import ServicesContainer from './Components/ServicesContainer/ServicesContainer';
 import ContactContainer from './Components/ContactContainer/ContactContainer';
+import ContactForm2 from './Components/ContactForm/ContactForm2';
+import ContactForm3 from './Components/ContactForm/ContactForm3';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path='/services' element={<ServicesContainer />} />
             <Route path='/insurance' element={<InsuranceContainer />} />
             <Route path='/contact' element={<ContactContainer />} />
+            <Route path='/contact2' element={<ContactForm2 />} />
+            <Route path='/contact3' element={<ContactForm3 />} />
 
             <Route path='/HighPerformance' element={<HomeContainer />} />
             <Route path='/HighPerformance/about' element={<AboutContainer />} />

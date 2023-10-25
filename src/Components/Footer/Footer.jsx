@@ -1,5 +1,4 @@
 import Styles from "./Footer.module.css";
-import { Link } from 'react-router-dom';
 
 import { BsTelephone, BsEnvelope, BsClock } from "react-icons/bs";
 
@@ -44,27 +43,15 @@ const Footer = () => {
 
         <div className={Styles.top}>
           <div className={Styles.pages}>
-            <div style={{display:"flex", flexDirection:"column"}}>
-              <h3>Navigation</h3>
-              <Link to="/" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Home </Link>
-              <Link to="/about" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> About us </Link>
-              <Link to="/services" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Services </Link>
-              <Link to="/insurance" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Insurance </Link>
-              <Link to="/contact" style={{textDecoration:"none", color:"white", paddingTop:"0.5rem"}}> Contact </Link>
-            </div>
 
             <div style={{display:"flex", flexDirection:"column"}}>
               <h3 style={{marginBottom:"1rem"}}>Our services!</h3>
-              <p>Blind Spot Monitor</p>
-              <p>Automatic Emergency Braking</p>
-              <p>Adaptive Cruise Control</p>
-              <p>Traffic Sign Recognition</p>
-              <p>And a lot more we offer!</p>
+              <p style={{fontSize:"1.25rem"}} >Blind Spot Monitor | Automatic Emergency Braking <br/> Adaptive Cruise Control | Traffic Sign Recognition <br/> And a lot more we offer!</p>
             </div>
 
             <div style={{display:"flex", flexDirection:"column"}}>
               <h3 style={{marginBottom:"1rem"}}>Visit us</h3>
-                <p>9832 Rush St <br/> South El Monte, CA 91733</p>
+                <p style={{fontSize:"1.25rem"}}>9832 Rush St <br/> South El Monte, CA 91733</p>
             </div>
           </div>
         </div>

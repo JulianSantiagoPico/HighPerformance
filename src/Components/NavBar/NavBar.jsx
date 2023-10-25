@@ -7,8 +7,8 @@ import { BsInstagram, BsFacebook } from "react-icons/bs";
 
 const NavBar = () => {
   return (
-    <div>
-      <Navbar expand="lg" bg='white'>
+    <div style={{position:"sticky"}}>
+      <Navbar expand="lg" bg='white' >
         <Container>
           <Navbar.Brand href="/HighPerformance"><img src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1697254856/HighPerformance/s8oasljxb7zori2vxkqc.png" alt="Logo" style={{width:"50%", height:"10%"}}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
