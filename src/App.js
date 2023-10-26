@@ -3,12 +3,10 @@ import Footer from './Components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeContainer from './Components/HomeContainer/HomeContainer';
-import InsuranceContainer from './Components/InsuranceContainer/InsuranceContainer';
-import AboutContainer from './Components/AboutContainer/AboutContainer';
 import ServicesContainer from './Components/ServicesContainer/ServicesContainer';
 import ContactContainer from './Components/ContactContainer/ContactContainer';
-import ContactForm2 from './Components/ContactForm/ContactForm2';
-import ContactForm3 from './Components/ContactForm/ContactForm3';
+import WhyContainer from './Components/WhyContainer/WhyContainer';
+import InsuranceContainer2 from './Components/InsuranceContainer/InsuranceContainer2';
 
 function App() {
   return (
@@ -20,17 +18,15 @@ function App() {
           <Routes>
 
             <Route path='/' element={<HomeContainer />} />
-            <Route path='/about' element={<AboutContainer />} />
+            <Route path='/why' element={<WhyContainer />} />
             <Route path='/services' element={<ServicesContainer />} />
-            <Route path='/insurance' element={<InsuranceContainer />} />
+            <Route path='/insurance' element={<InsuranceContainer2 />} />
             <Route path='/contact' element={<ContactContainer />} />
-            <Route path='/contact2' element={<ContactForm2 />} />
-            <Route path='/contact3' element={<ContactForm3 />} />
 
             <Route path='/HighPerformance' element={<HomeContainer />} />
-            <Route path='/HighPerformance/about' element={<AboutContainer />} />
+            <Route path='/HighPerformance/why' element={<WhyContainer />} />
             <Route path='/HighPerformance/services' element={<ServicesContainer />} />
-            <Route path='/HighPerformance/insurance' element={<InsuranceContainer />} />
+            <Route path='/HighPerformance/insurance' element={<InsuranceContainer2 />} />
             <Route path='/HighPerformance/contact' element={<ContactContainer />} />
 
           </Routes>

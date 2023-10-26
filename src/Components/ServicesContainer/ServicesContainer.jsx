@@ -15,7 +15,7 @@ const ServicesContainer = () => {
                 <div >
                   <div className={Styles.wrapper}>
                     <div>
-                      <Image className={Styles.image} src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1698021363/HighPerformance/adas-statistics-scaled_1_cfkt9y.jpg" rounded />
+                      <Image src="https://res.cloudinary.com/duqtm5tnb/image/upload/v1698021363/HighPerformance/adas-statistics-scaled_1_cfkt9y.jpg" rounded />
                     </div>
 
                     <div>

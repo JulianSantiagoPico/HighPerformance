@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-const AboutContainer = () => {
+const WhyContainer = () => {
   return (
     <div>
         <div style={{display:"flex", justifyContent:"center", marginTop:"1rem"}}>
@@ -17,4 +17,4 @@ const AboutContainer = () => {
   )
 }
 
-export default AboutContainer
+export default WhyContainer

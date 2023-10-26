@@ -1,6 +1,6 @@
 import Styles from "./Footer.module.css";
 
-import { BsTelephone, BsEnvelope, BsClock } from "react-icons/bs";
+import { BsTelephone, BsEnvelope, BsClock, BsGeoAltFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div className={Styles.contact}>
             <div className={Styles.sections}>
-              <div>
+              <div className="pt-4 pr-4">
                 <BsTelephone />
               </div>
               <div>
@@ -21,7 +21,7 @@ const Footer = () => {
             <p>|</p>
 
             <div className={Styles.sections}>
-              <div>
+              <div className="pt-4 pr-4">
                 <BsEnvelope />
               </div>
               <div>
@@ -32,7 +32,7 @@ const Footer = () => {
             <p>|</p>
 
             <div className={Styles.sections}>
-              <div>
+              <div className="pt-4 pr-4">
                 <BsClock />
               </div>
               <div>
@@ -44,9 +44,8 @@ const Footer = () => {
         <div className={Styles.top}>
           <div className={Styles.pages}>
 
-            <div style={{display:"flex", flexDirection:"column"}}>
-              <h3 style={{marginBottom:"1rem"}}>Our services!</h3>
-              <p style={{fontSize:"1.25rem"}} >Blind Spot Monitor | Automatic Emergency Braking <br/> Adaptive Cruise Control | Traffic Sign Recognition <br/> And a lot more we offer!</p>
+            <div className="mb-2">
+              <BsGeoAltFill />
             </div>
 
             <div style={{display:"flex", flexDirection:"column"}}>
