@@ -1,38 +1,45 @@
-import NavBar from './Components/NavBar/NavBar';
-import Footer from './Components/Footer/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomeContainer from './Components/HomeContainer/HomeContainer';
-import ServicesContainer from './Components/ServicesContainer/ServicesContainer';
-import ContactContainer from './Components/ContactContainer/ContactContainer';
-import WhyContainer from './Components/WhyContainer/WhyContainer';
-import InsuranceContainer2 from './Components/InsuranceContainer/InsuranceContainer2';
+import HomeContainer from "./Components/HomeContainer/HomeContainer";
+import ServicesContainer from "./Components/ServicesContainer/ServicesContainer";
+import ContactContainer from "./Components/ContactContainer/ContactContainer";
+import WhyContainer from "./Components/WhyContainer/WhyContainer";
+import InsuranceContainer2 from "./Components/InsuranceContainer/InsuranceContainer2";
+import ServicesContainer2 from "./Components/ServicesContainer/ServicesContainer2";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-
         <NavBar />
 
-          <Routes>
+        <Routes>
+          <Route path="/" element={<HomeContainer />} />
+          <Route path="/why" element={<WhyContainer />} />
+          <Route path="/services" element={<ServicesContainer />} />
+          <Route path="/services2" element={<ServicesContainer2 />} />
+          <Route path="/insurance" element={<InsuranceContainer2 />} />
+          <Route path="/contact" element={<ContactContainer />} />
 
-            <Route path='/' element={<HomeContainer />} />
-            <Route path='/why' element={<WhyContainer />} />
-            <Route path='/services' element={<ServicesContainer />} />
-            <Route path='/insurance' element={<InsuranceContainer2 />} />
-            <Route path='/contact' element={<ContactContainer />} />
-
-            <Route path='/HighPerformance' element={<HomeContainer />} />
-            <Route path='/HighPerformance/why' element={<WhyContainer />} />
-            <Route path='/HighPerformance/services' element={<ServicesContainer />} />
-            <Route path='/HighPerformance/insurance' element={<InsuranceContainer2 />} />
-            <Route path='/HighPerformance/contact' element={<ContactContainer />} />
-
-          </Routes>
+          <Route path="/HighPerformance" element={<HomeContainer />} />
+          <Route path="/HighPerformance/why" element={<WhyContainer />} />
+          <Route
+            path="/HighPerformance/services"
+            element={<ServicesContainer />}
+          />
+          <Route
+            path="/HighPerformance/insurance"
+            element={<InsuranceContainer2 />}
+          />
+          <Route
+            path="/HighPerformance/contact"
+            element={<ContactContainer />}
+          />
+        </Routes>
 
         <Footer />
-
       </BrowserRouter>
     </div>
   );

@@ -15,11 +15,11 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" style={{fontSize:"1.15rem", display:"flex", gap:"50px"}}>
 
-              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> HOME </Link>
-              <Link to="/why" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500", textAlign:"center"}}> WHY US </Link>
-              <Link to="/services" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> SERVICES </Link>
-              <Link to="/insurance" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> INSURANCE </Link>
-              <Link to="/contact" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500"}}> CONTACT </Link>
+              <Link to="/" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500", textAlign:"center"}} className='hvr-underline-from-left pr-3 pb-1'> HOME </Link>
+              <Link to="/why" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500", textAlign:"center"}} className='hvr-underline-from-left pb-1'> US </Link>
+              <Link to="/services" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500", textAlign:"center"}} className='hvr-underline-from-left pr-3 pb-1'> SERVICES </Link>
+              <Link to="/insurance" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500", textAlign:"center"}} className='hvr-underline-from-left pr-3 pb-1'> INSURANCE </Link>
+              <Link to="/contact" style={{textDecoration:"none", color:"black", paddingTop:"0.5rem", fontWeight:"500", textAlign:"center"}} className='hvr-underline-from-left pr-3 pb-1'> CONTACT </Link>
 
             </Nav>
           </Navbar.Collapse>
