@@ -3,7 +3,6 @@ import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeContainer from "./Components/HomeContainer/HomeContainer";
-import ServicesContainer from "./Components/ServicesContainer/ServicesContainer";
 import ContactContainer from "./Components/ContactContainer/ContactContainer";
 import WhyContainer from "./Components/WhyContainer/WhyContainer";
 import InsuranceContainer2 from "./Components/InsuranceContainer/InsuranceContainer2";
@@ -18,8 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeContainer />} />
           <Route path="/why" element={<WhyContainer />} />
-          <Route path="/services" element={<ServicesContainer />} />
-          <Route path="/services2" element={<ServicesContainer2 />} />
+          <Route path="/services" element={<ServicesContainer2 />} />
           <Route path="/insurance" element={<InsuranceContainer2 />} />
           <Route path="/contact" element={<ContactContainer />} />
 
@@ -27,7 +25,7 @@ function App() {
           <Route path="/HighPerformance/why" element={<WhyContainer />} />
           <Route
             path="/HighPerformance/services"
-            element={<ServicesContainer />}
+            element={<ServicesContainer2 />}
           />
           <Route
             path="/HighPerformance/insurance"
