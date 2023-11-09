@@ -1,6 +1,6 @@
 import ServiceItem from "../ServiceItem/ServiceItem";
 
-const ServicesList = ({ items }) => {
+const ServicesList2 = ({ items2 }) => {
   return (
     <div
       style={{
@@ -12,11 +12,11 @@ const ServicesList = ({ items }) => {
         justifyContent: "space-evenly",
       }}
     >
-      {items.map((element) => {
+      {items2.map((element) => {
         return <ServiceItem key={element.id} element={element} />;
       })}
     </div>
   );
 };
 
-export default ServicesList;
+export default ServicesList2;
