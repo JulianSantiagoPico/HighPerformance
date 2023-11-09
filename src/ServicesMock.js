@@ -18,7 +18,7 @@ export const services = [
     title: "Pedestrian Detection",
     description:
       "Pedestrian detection is an advanced driver assistance system (ADAS). It uses sensors, cameras, and artificial intelligence to identify pedestrians near vehicles. By analyzing the surrounding environment, the system can recognize human forms and movements, helping to prevent or mitigate potential collisions between vehicles and pedestrians.",
-    img: "https://res.cloudinary.com/duqtm5tnb/image/upload/v1699409665/HighPerformance/Services/Volvo-Pedestrian-and-Cyclist-Detection-System-2-625x351_1_m4adnd.jpg",
+    img: "https://res.cloudinary.com/duqtm5tnb/image/upload/v1699492163/HighPerformance/Services/maxresdefault_1_occy1f.jpg",
   },
   {
     id: 4,
@@ -39,13 +39,13 @@ export const services = [
     title: "Lane Departure Warning",
     description:
       "Lane departure warning is designed to help you avoid crashes due to drifting or departing your lane. The system detects lane markers and alerts you when a tire touches a lane marker. The warning is usually a flashing indicator and/or it beeps from the corresponding side.",
-    img: "https://res.cloudinary.com/duqtm5tnb/image/upload/v1699409665/HighPerformance/Services/csm_lane_20departure_20warning_e03c28b9ca_ur2irp.jpg",
+    img: "https://res.cloudinary.com/duqtm5tnb/image/upload/v1699492062/HighPerformance/Services/lane-departure-cover-MAIN_1_mqif8c.jpg",
   },
   {
     id: 7,
     title: "Lane Keeping Assist",
     description:
       "Lane keeping assistance (LKA) gives steering support to assist the driver in preventing the vehicle from departing the lane.",
-    img: "https://res.cloudinary.com/duqtm5tnb/image/upload/v1699409830/HighPerformance/Services/blind-spot-detection_stage_v2_1_1_isvuxz.jpg",
+    img: "https://res.cloudinary.com/duqtm5tnb/image/upload/v1699409665/HighPerformance/Services/CR-Magazine-InlineHERO-safety-technology-0817-_kt0nje.jpg",
   },
 ];
