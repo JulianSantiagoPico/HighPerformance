@@ -5,7 +5,7 @@ const ServicesList = ({ items }) => {
     <div
       style={{
         display: "flex",
-        width: "80%",
+        width: "100%",
         alignItems: "center",
         flexWrap: "wrap",
         gap: "2rem",
